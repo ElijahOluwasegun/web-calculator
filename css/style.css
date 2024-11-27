@@ -16,7 +16,7 @@ body {
     justify-content: center;
     flex-direction: column;
     width: 350px;
-    height: 550px;
+    height: 650px;
     margin: 50px 0px 0px 0px;
     padding: 0px 20px;
     border: 1px solid black;
@@ -24,11 +24,21 @@ body {
     background-color: white;
 }
 
-.output {
+label {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    align-content: end;
+    justify-self: end;
+    align-self: flex-end;
+    margin: 20px 0px 0px 0px;
+}
+
+#display {
     display: flex;
     width: 310px;
     height: 100px;
-    margin: 20px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
     padding: 0px;
     border: 1px solid black;
     border-radius: 8px;
@@ -47,6 +57,7 @@ body {
     height: 50px;
     border: 1px solid black;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .button-text {

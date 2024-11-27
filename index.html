@@ -8,43 +8,48 @@
 </head>
 <body>
     <div class="outer-container">
-        <div class="output"></div>
+        <label for="">Output</label>
+        <input id="display" placeholder="999999" readonly>
         <div class="group-of-buttons">
-            <div class="buttons"><p class="button-text">Del</p></div>
-            <div class="buttons"><p class="button-text">AC</p></div>
-            <div class="buttons"><p class="button-text">Ans</p></div>
-            <div class="buttons"><p class="button-number-small">x10^x</p></div>
+            <button onclick="backspace()" class="buttons"><p class="button-text">Del</p></button>
+            <button onclick="clearDisplay('AC')" class="buttons"><p class="button-text">AC</p></button>
+            <button onclick="appendToDisplay('Ans')" class="buttons"><p class="button-text">Ans</p></button>
+            <button onclick="appendToDisplay('x10^x')" class="buttons"><p class="button-number-small">x10^x</p></button>
         </div>
         <div class="group-of-buttons">
-            <div class="buttons"><p class="button-number">7</p></div>
-            <div class="buttons"><p class="button-number">8</p></div>
-            <div class="buttons"><p class="button-number">9</p></div>
-            <div class="buttons"><div class="button-symbol"></div></div>
+            <button onclick="appendToDisplay('7')" class="buttons"><p class="button-number">7</p></button>
+            <button onclick="appendToDisplay('8')" class="buttons"><p class="button-number">8</p></button>
+            <button onclick="appendToDisplay('9')" class="buttons"><p class="button-number">9</p></button>
+            <button onclick="appendToDisplay('/')" class="buttons">/</button>
         </div>
         <div class="group-of-buttons">
-            <div class="buttons"><p class="button-number">4</p></div>
-            <div class="buttons"><p class="button-number">5</p></div>
-            <div class="buttons"><p class="button-number">6</p></div>
-            <div class="buttons"><div class="button-symbol"></div></div>
+            <button onclick="appendToDisplay('4')" class="buttons"><p class="button-number">4</p></button>
+            <button onclick="appendToDisplay('5')" class="buttons"><p class="button-number">5</p></button>
+            <button onclick="appendToDisplay('6')" class="buttons"><p class="button-number">6</p></button>
+            <button onclick="appendToDisplay('+')" class="buttons">+</button>
         </div>
         <div class="group-of-buttons">
-            <div class="buttons"><p class="button-number">1</p></div>
-            <div class="buttons"><p class="button-number">2</p></div>
-            <div class="buttons"><p class="button-number">3</p></div>
-            <div class="buttons"><div class="button-symbol"></div></div>
+            <button onclick="appendToDisplay('1')" class="buttons"><p class="button-number">1</p></button>
+            <button onclick="appendToDisplay('2')" class="buttons"><p class="button-number">2</p></button>
+            <button onclick="appendToDisplay('3')" class="buttons"><p class="button-number">3</p></button>
+            <button onclick="appendToDisplay('-')" class="buttons">-</button>
         </div>
         <div class="group-of-buttons">
-            <div class="buttons"><p class="button-number">0</p></div>
-            <div class="buttons"><div class="button-symbol"></div></div>
-            <div class="buttons"><div class="button-symbol"></div></div>
-            <div class="buttons"><div class="button-symbol"></div></div>
+            <button onclick="appendToDisplay('0')" class="buttons"><p class="button-number">0</p></button>
+            <button onclick="appendToDisplay('.')" class="buttons">.</button>
+            <button onclick="appendToDisplay('^')" class="buttons">^</button>
+            <button onclick="appendToDisplay('*')" class="buttons">*</button>
         </div>
         <div class="group-of-buttons">
-            <div class="buttons"><div class="button-symbol"></div></div>
-            <div class="buttons"><div class="button-symbol"></div></div>
-            <div class="buttons"><div class="button-symbol"></div></div>
-            <div class="buttons"><div class="button-symbol"></div></div>
+            <button onclick="toggleSign()" class="buttons">+/-</button>
+            <button onclick="appendToDisplay('<')" class="buttons"><</button>
+            <button onclick="appendToDisplay('8')" class="buttons">Down Arrow</button>
+            <button onclick="appendToDisplay('>')" class="buttons">></button>
+        </div>
+        <div class="group-of-buttons">
+            <button onclick="calculate()" class="buttons">=</button>
         </div>
     </div>
+    <script src="js/index.js"></script>
 </body>
 </html>
