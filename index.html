@@ -14,7 +14,7 @@
             <button onclick="backspace()" class="buttons button-text">DEL</button>
             <button onclick="clearDisplay('AC')" class="buttons button-text">AC</button>
             <button onclick="appendToDisplay('Ans')" class="buttons button-text">Ans</button>
-            <button onclick="appendToDisplay('x10^x')" class="buttons"><p class="button-number-small">x10^x</p></button>
+            <button onclick="appendToDisplay('*')" class="buttons"><p class="button-symbol">*</p></button>
         </div>
         <div class="group-of-buttons">
             <button onclick="appendToDisplay('7')" class="buttons button-number">7</button>
@@ -38,16 +38,13 @@
             <button onclick="appendToDisplay('0')" class="buttons button-number">0</button>
             <button onclick="appendToDisplay('.')" class="buttons"><p class="button-symbol">.</p></button>
             <button onclick="appendToDisplay('^')" class="buttons"><p class="button-symbol">^</p></button>
-            <button onclick="appendToDisplay('*')" class="buttons"><p class="button-symbol">*</p></button>
+            <button onclick="calculate()" class="buttons"><p class="button-symbol">=</p></button>
         </div>
         <div class="group-of-buttons">
             <button onclick="toggleSign()" class="buttons">+/-</button>
             <button onclick="appendToDisplay('<')" class="buttons"><</button>
             <button onclick="appendToDisplay('8')" class="buttons">Down Arrow</button>
             <button onclick="appendToDisplay('>')" class="buttons">></button>
-        </div>
-        <div class="group-of-buttons">
-            <button onclick="calculate()" class="buttons">=</button>
         </div>
     </div>
     <script src="js/index.js"></script>
