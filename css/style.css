@@ -41,6 +41,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     padding: 10px 0px;
+    background-color: #D9D9D9;
 }
 
 .buttons {
@@ -80,13 +81,16 @@ button.button-text:nth-last-child(2) {
     text-align: center;
 }
 
-.button-number {
+button.button-number {
     display: flex;
-    padding: 0px 15px;
+    align-items: center;
     align-self: center;
+    padding: 0px 15px;
     font-size: 30px;
     font-weight: bolder;
     text-align: center;
+    background-color: white;
+    border: none;
 }
 
 .button-symbol {
