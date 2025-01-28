@@ -71,6 +71,13 @@ button.button-text:nth-last-child(2) {
     background-color: black;
 }
 
+button.button-text:hover {
+    background-color: #ff2323;
+}
+
+button.button-text:nth-last-child(2):hover {
+    background-color: rgb(39, 39, 39);
+}
 
 .button-number-small {
     display: flex;
@@ -91,6 +98,11 @@ button.button-number {
     text-align: center;
     background-color: white;
     border: none;
+}
+
+button.button-number:hover {
+    background-color: black;
+    color: white;
 }
 
 .button-symbol {
