@@ -53,14 +53,23 @@ body {
     cursor: pointer;
 }
 
-.button-text {
+button.button-text {
     display: flex;
+    align-items: center;
     align-self: center;
     padding: 0px 10px;
     font-size: 20px;
     font-weight: bolder;
     text-align: center;
+    background-color: #F13232;
+    border: none;
+    color: white;
 }
+
+button.button-text:nth-last-child(2) {
+    background-color: black;
+}
+
 
 .button-number-small {
     display: flex;
@@ -78,4 +87,24 @@ body {
     font-size: 30px;
     font-weight: bolder;
     text-align: center;
+}
+
+.button-symbol {
+    display: flex;
+    padding: 0px 15px;
+    align-self: center;
+    font-size: 55px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+button .button-symbol {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    color: blue;
 }
