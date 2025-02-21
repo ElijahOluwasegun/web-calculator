@@ -117,7 +117,7 @@ button.button-number:hover {
     text-align: center;
 }
 
-button .button-symbol {
+button.button-symbol {
     display: flex;
     align-items: center;
     align-self: center;
@@ -125,5 +125,12 @@ button .button-symbol {
     justify-content: center;
     justify-items: center;
     justify-self: center;
-    color: blue;
+    color: rgb(255, 255, 255);
+    background-color: #639F47;
+    border: none;
+}
+
+button.arrow {
+    background-color: #266D5F;
+    color: white;
 }
