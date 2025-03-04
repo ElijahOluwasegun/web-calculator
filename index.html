@@ -36,17 +36,22 @@
         </div>
         <div class="group-of-buttons">
             <button onclick="appendToDisplay('0')" class="buttons button-number">0</button>
-            <button onclick="appendToDisplay('.')" class="buttons">.</button>
-            <button onclick="appendToDisplay('^')" class="buttons arrow">^</button>
+            <button onclick="appendToDisplay('.')" class="buttons point"><img class="dot_image" src="images/dot.png" alt="A picture of a dot"></button>
+            <button onclick="appendToDisplay('^')" class="buttons arrow"><img class="up_arrow" src="images/white_arrow.png" alt="A picture of an arrow"></button>
             <button onclick="calculate()" class="buttons button-symbol">=</button>
         </div>
         <div class="group-of-buttons">
             <button onclick="toggleSign()" class="buttons">+/-</button>
-            <button onclick="appendToDisplay('<')" class="buttons arrow"><</button>
-            <button onclick="appendToDisplay('8')" class="buttons arrow">Down Arrow</button>
-            <button onclick="appendToDisplay('>')" class="buttons arrow">></button>
+            <button onclick="appendToDisplay('<')" class="buttons arrow"><img class="left_arrow" src="images/white_arrow.png" alt="A picture of an arrow"></button>
+            <button onclick="appendToDisplay('8')" class="buttons arrow"><img class="down_arrow" src="images/white_arrow.png"></button>
+            <button onclick="appendToDisplay('>')" class="buttons arrow"><img class="right_arrow" src="images/white_arrow.png" alt="A picture of an arrow"></button>
         </div>
     </div>
     <script src="js/index.js"></script>
+    <div class="attribution">
+        <a href="https://www.flaticon.com/uicons">Arrows by Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/dot" title="dot icons">Dot icons created by Bharat Icons - Flaticon</a>
+        Uicons by <a href="https://www.flaticon.com/uicons">Flaticon</a>
+    </div>
 </body>
 </html>
