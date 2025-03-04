@@ -138,6 +138,13 @@ button.button-symbol {
     border: none;
 }
 
+button.symbol {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border: none;
+}
+
 button.arrow {
     background-color: #266D5F;
     color: white;
@@ -156,6 +163,10 @@ img {
     width: 100%;
     padding: 0;
     margin: 0;
+}
+
+.plus_minus {
+    width: 60%;
 }
 
 .up_arrow {
