@@ -118,22 +118,10 @@ button.button-number:hover {
 
 .button-symbol {
     display: flex;
-    padding: 0px 15px;
-    align-self: center;
-    font-size: 25px;
-    font-weight: bolder;
-    text-align: center;
 }
 
 button.button-symbol {
     display: flex;
-    align-items: center;
-    align-self: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    justify-self: center;
-    color: rgb(255, 255, 255);
     background-color: #639F47;
     border: none;
 }
@@ -198,3 +186,20 @@ img {
     justify-content: space-between;
     padding-top: 20px;
 }
+
+/* .new-shape {
+    fill: white;
+}
+
+.logo:hover .new-shape {
+    fill: black;
+}
+
+.logo {
+    fill: white;
+}
+
+.new-shape-left {
+    transform: rotate(270deg);
+    transform-origin: 100px 100px;
+} */
