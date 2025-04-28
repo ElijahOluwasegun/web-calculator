@@ -19,8 +19,8 @@ body {
     flex-direction: column;
     width: 20%;
     height: 50%;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px;
+    margin: 1em 0em;
+    padding: 0em 0em;
     border: none;
     border-radius: 8px;
     background-color: #A6A6A6;
@@ -205,7 +205,13 @@ img {
 
 .attribution {
     display: flex;
-    gap: 50px;
+    flex-flow: row wrap;
+    gap: 10px;
     justify-content: space-between;
-    padding-top: 20px;
+    padding: 20px 20px;
+    background-color: #fafafa;
+}
+
+p {
+    font-weight: bold;
 }
