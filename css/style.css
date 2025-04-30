@@ -215,3 +215,8 @@ img {
 p {
     font-weight: bold;
 }
+
+.title_attribute {
+    text-decoration: underline;
+    font-size: 20px;
+}
