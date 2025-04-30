@@ -31,8 +31,8 @@ body {
     justify-content: end;
     align-self: center;
     width: 85%;
-    margin: 21px 0px 21px 0px;
-    padding: 150px 0px 0px 0px;
+    margin: 0.42em 0em;
+    padding-top: 3.125em;
     border: none;
     border-radius: 8px;
     background-color: #D9D9D9;
@@ -43,24 +43,24 @@ body {
 .group-of-buttons {
     display: flex;
     justify-content: space-evenly;
-    padding: 5px 0px;
+    padding: 0.313em 0em;
     background-color: #D9D9D9;
 }
 
 .group-of-buttons:nth-child(2) {
-    padding-top: 12px;
+    padding-top: 0.75em;
 }
 
 .group-of-buttons:nth-child(7) {
-    padding-bottom: 12px;
+    padding-bottom: 0.75em;
 }
 
 .buttons {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 55px;
-    height: 40px;
+    width: 22%;
+    height: max-content;
     /* border: 1px solid black; */
     border-radius: 8px;
     cursor: pointer;
@@ -70,8 +70,8 @@ button.button-text {
     display: flex;
     align-items: center;
     align-self: center;
-    padding: 0px 10px;
-    font-size: 18px;
+    padding: 0.4em 0.625em;
+    font-size: 1.125rem;
     font-weight: 900;
     text-align: center;
     background-color: #F13232;
@@ -93,9 +93,9 @@ button.button-text:nth-last-child(2):hover {
 
 .button-number-small {
     display: flex;
-    padding: 0px 5px;
+    padding: 0em 0.313em;
     align-self: center;
-    font-size: 15px;
+    font-size: 0.938rem;
     font-weight: bolder;
     text-align: center;
 }
@@ -104,8 +104,8 @@ button.button-number {
     display: flex;
     align-items: center;
     align-self: center;
-    padding: 0px 15px;
-    font-size: 25px;
+    padding: 0.07em 0.938em;
+    font-size: 1.563rem;
     font-weight: 900;
     text-align: center;
     background-color: white;
@@ -123,6 +123,7 @@ button.button-number:hover {
 
 button.button-symbol {
     display: flex;
+    padding: 0.4em 0em;
     background-color: #639F47;
     border: none;
 }
@@ -130,11 +131,13 @@ button.button-symbol {
 button.symbol {
     display: flex;
     align-items: center;
+    padding: 0.35em 0em;
     background-color: black;
     border: none;
 }
 
 button.arrow {
+    padding: 0.4em 0em;
     background-color: #266D5F;
     color: white;
     border: none;
@@ -142,7 +145,7 @@ button.arrow {
 
 button.point {
     display: flex;
-    padding: 0;
+    padding: 0.3em 0em;
     margin: 0;
     background-color: white;
     border: none;
@@ -174,7 +177,7 @@ img {
 .down_arrow {
     width: 50%;
     height: 60%;
-    padding-top: 0px;
+    padding-top: 0em;
     rotate: 90deg;
 }
 
@@ -208,7 +211,7 @@ img {
     flex-flow: row wrap;
     gap: 10px;
     justify-content: space-between;
-    padding: 20px 20px;
+    padding: 1.25em 1.25em;
     background-color: #fafafa;
 }
 
@@ -218,5 +221,5 @@ p {
 
 .title_attribute {
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
