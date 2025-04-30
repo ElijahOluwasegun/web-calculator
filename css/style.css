@@ -43,7 +43,7 @@ body {
 .group-of-buttons {
     display: flex;
     justify-content: space-evenly;
-    padding: 0.313em 0em;
+    padding: 0.313em 0.5em;
     background-color: #D9D9D9;
 }
 
@@ -222,4 +222,11 @@ p {
 .title_attribute {
     text-decoration: underline;
     font-size: 1.25rem;
+}
+
+@media (max-width: 375px) {
+    .outer-container {
+        width: 75%;
+        height: 80%;
+    }
 }
